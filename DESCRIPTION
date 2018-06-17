@@ -1,0 +1,15 @@
+Package: ausBeerTax
+Title: Calculate How Much Tax You Pay On Your Beer
+Version: 0.0.0.9000
+Authors@R: person("Steve", "Lane", email = "lane.s@unimelb.edu.au", role = c("aut", "cre"))
+Description: This package allows you to calculate how much tax you are paying when you purchase a slab of beer in Australia.
+Depends: R (>= 3.5.0)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Suggests: shiny,
+    ggplot2,
+    shinyjs,
+    png,
+    grid
+RoxygenNote: 6.0.1
