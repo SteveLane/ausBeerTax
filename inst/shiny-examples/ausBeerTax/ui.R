@@ -50,6 +50,7 @@ fluidPage(
         ),
         column(
             3, h4("Click the buttons for some popular beer settings."),
+            p("The price settings for these were current from a 'big box' store on 2018-06-17."), br(),
             actionButton("vb", "VB"), br(),
             actionButton("coop", "Coopers Pale Ale"), br(),
             actionButton("crea", "Little Creatures Pale Ale"), br(),
