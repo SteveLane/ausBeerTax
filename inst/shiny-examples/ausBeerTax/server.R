@@ -45,8 +45,8 @@ server <- function(input, output, session) {
         text <- paste0("If you purchased ", input$num, ", ", input$vol,
                        "ml bottles/cans of sweet amber nectar at a cost of $",
                        input$slabCost, ", and your beer contained ", input$abv,
-                       "% alcohol by volume, then you'd be paying $", amt[1],
-                       " in GST, and $", amt[2],
+                       "% alcohol by volume, then you'd be paying $", amt[2],
+                       " in GST, and $", amt[1],
                        " in excise to the government. That's ", tax,
                        "% of the total cost of your beer in taxes.")
         text

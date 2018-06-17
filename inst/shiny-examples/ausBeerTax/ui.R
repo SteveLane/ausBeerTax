@@ -5,16 +5,6 @@ library(ausBeerTax)
 fluidPage(
     useShinyjs(),
     title = "Australian Beer Tax",
-    ## fluidRow(
-    ##     plotOutput("bar", width = "300px")
-    ## ),
-    ## ## I should try and plot something, but just place some text now.
-    ## ## fluidRow(
-    ## ##     column(
-    ## ##         12, p("Here's some text about the app.")
-    ## ##     )
-    ## ## ),
-    ## hr(),
     fluidRow(
         column(
             3, plotOutput("bar", width = "300px")
